@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 9894ce2f8757add45969c10c8b5afd55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1556306951082311305
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_0"
+  - first:
+      213: 9209699070933540545
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_1"
+  - first:
+      213: -612420005452742717
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_2"
+  - first:
+      213: 8895930371910175166
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_3"
+  - first:
+      213: 2376705241100781641
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_4"
+  - first:
+      213: -2842218433160093583
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_5"
+  - first:
+      213: -1470347215572292402
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_6"
+  - first:
+      213: -8532699991790131122
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_7"
+  - first:
+      213: -5892766959618232033
+    second: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_8"
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_0"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1027
+        width: 533
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771844bd213e66ae0800000000000000
+      internalID: -1556306951082311305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_1"
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1251
+        width: 390
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce1d3b828c6fcf70800000000000000
+      internalID: 9209699070933540545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_2"
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 971
+        width: 585
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf75a1ff3f3087f0800000000000000
+      internalID: -612420005452742717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_3"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 709
+        width: 435
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb980546a81b47b70800000000000000
+      internalID: 8895930371910175166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_4"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 837
+        width: 241
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9480f9f03d0cbf020800000000000000
+      internalID: 2376705241100781641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_5"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 588
+        width: 594
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170ec6dc4696e88d0800000000000000
+      internalID: -2842218433160093583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_6"
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 513
+        width: 318
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc24576ff6489be0800000000000000
+      internalID: -1470347215572292402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_7"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 267
+        width: 828
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48ee5ec092c59980800000000000000
+      internalID: -8532699991790131122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_8"
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 134
+        width: 432
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11fbc3ebafa83ea0800000000000000
+      internalID: -5892766959618232033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_0": -1556306951082311305
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_1": 9209699070933540545
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_2": -612420005452742717
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_3": 8895930371910175166
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_4": 2376705241100781641
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_5": -2842218433160093583
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_6": -1470347215572292402
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_7": -8532699991790131122
+      "\u2014Pngtree\u2014beautiful white cloud collection vector_7552579_8": -5892766959618232033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
