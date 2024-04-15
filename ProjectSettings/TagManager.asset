@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Balonlar
+  - Animation
   layers:
   - Default
   - TransparentFX

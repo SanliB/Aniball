@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class giris : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public GameObject Audio;
     public GameObject SettingsPanel;
@@ -15,12 +15,15 @@ public class giris : MonoBehaviour
     {
         SceneManager.LoadScene("Launcher");
     }
-    public void Settings()
+    public void OnSettingsPanel()
     {
         SettingsPanel.SetActive(true);
     }
-    public void CloseSettings()
+    public void CloseSettingsPanel()
     {
         SettingsPanel.SetActive(false);
     }
+
+
+    
 }

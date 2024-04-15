@@ -7,11 +7,11 @@ using UnityEngine.UI;
 public class BaloonController : MonoBehaviour
 {
     public GameObject patlama;
-    Skor oyunKontrolScripti;
+    Score oyunKontrolScripti;
 
     void Start()
     {
-        oyunKontrolScripti = GameObject.Find("Scripts").GetComponent<Skor>();
+        oyunKontrolScripti = GameObject.Find("Scripts").GetComponent<Score>();
     }
 
     void OnMouseDown()

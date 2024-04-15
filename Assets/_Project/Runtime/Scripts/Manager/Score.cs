@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Skor : MonoBehaviour
+public class Score : MonoBehaviour
 {
     public TextMeshProUGUI score;
     public int patlayanBalon;
@@ -21,5 +21,7 @@ public class Skor : MonoBehaviour
         patlayanBalon += 1;
         score.text = "" + patlayanBalon;
         manager.balonhizi += 5;
+        manager.balonSayisi--;
     }
+
 }
