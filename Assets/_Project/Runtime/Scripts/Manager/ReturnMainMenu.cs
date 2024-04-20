@@ -8,5 +8,6 @@ public class ReturnMainMenu : MonoBehaviour
     public void OnReturnMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        
     }
 }

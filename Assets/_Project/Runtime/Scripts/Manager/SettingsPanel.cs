@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,21 @@ public class SettingsPanel: MonoBehaviour
 {
     public GameObject Panel;
     public bool isPaused;
+    public Slider MusicSlider;
+    public Slider SoundSlider;
+    public AudioSource Music;
+    public AudioSource Sound;
+
+    public void Start()
+    {
+       
+    }
+
+    public void Update()
+    {
+        OnMusicSlider();
+        OnSoundSlider();
+    }
     public void OnSettingsPanel()
     {
         Panel.SetActive(true);
@@ -17,6 +33,8 @@ public class SettingsPanel: MonoBehaviour
         }
     }
 
+   
+
     public void OutSettingsPanel() 
     { 
         Panel.SetActive(false);
@@ -25,5 +43,32 @@ public class SettingsPanel: MonoBehaviour
             Time.timeScale = 1f;
             isPaused = false;
         }
+    }
+     private void OnMusicSlider()
+    {
+        float musicValue = PlayerPrefs.GetFloat("Music");
+        MusicSlider.value = musicValue;
+        Music.volume = musicValue;
+    }
+    public void MusicSetting()
+    {
+        Music.volume = MusicSlider.value;
+        float musicValue = MusicSlider.value;
+        PlayerPrefs.SetFloat("Music", musicValue);
+    }
+
+    private void OnSoundSlider()
+    {
+        float soundValue = PlayerPrefs.GetFloat("Sound");
+        SoundSlider.value = soundValue;
+        Sound.volume = soundValue;
+       
+    }
+
+    public void SoundSetting()
+    {
+        Sound.volume = SoundSlider.value;
+        float soundValue = SoundSlider.value;
+        PlayerPrefs.SetFloat("Sound", soundValue);
     }
 }
