@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3062116434040430199}
   m_Layer: 0
   m_Name: civciv_0
-  m_TagString: Balonlar
+  m_TagString: Balloons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,4 +228,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f45d52bf9c270264e8cbae5fb123c8ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patlama: {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  animation: {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}

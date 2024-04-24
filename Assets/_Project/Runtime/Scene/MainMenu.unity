@@ -511,8 +511,8 @@ PrefabInstance:
       value: 1BackgroundMusic
       objectReference: {fileID: 0}
     - target: {fileID: 1006006559667803655, guid: b28eef57a6922494bbe8015e4b43357d, type: 3}
-      propertyPath: m_TagString
-      value: Music
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5558384637958574418, guid: b28eef57a6922494bbe8015e4b43357d, type: 3}
       propertyPath: m_RootOrder
@@ -558,10 +558,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5713883030127689816, guid: b28eef57a6922494bbe8015e4b43357d, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -598,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2270c9e5f2398641981407c5210eea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Music: {fileID: 0}
+  Music: {fileID: 1006006559667803655, guid: b28eef57a6922494bbe8015e4b43357d, type: 3}
   SettingsPanel: {fileID: 1302012873}
 --- !u!4 &788437562
 Transform:
@@ -641,7 +637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb87cae8cb9f294199b3baa52892b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 0}
+  Panel: {fileID: 1302012873}
   isPaused: 0
   MusicSlider: {fileID: 1302012875}
   SoundSlider: {fileID: 1302012876}

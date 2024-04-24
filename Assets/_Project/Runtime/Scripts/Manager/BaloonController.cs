@@ -6,22 +6,22 @@ using UnityEngine.UI;
 
 public class BaloonController : MonoBehaviour
 {
-    public GameObject patlama;
-    Score oyunKontrolScripti;
+    public GameObject animation;
+    Score scoreControl;
 
     void Start()
     {
-        oyunKontrolScripti = GameObject.Find("Scripts").GetComponent<Score>();
+        scoreControl = GameObject.Find("Scripts").GetComponent<Score>();
     }
 
     void OnMouseDown()
     {
-        GameObject go = Instantiate(patlama, transform.position, transform.rotation) as GameObject;
+        GameObject go = Instantiate(animation, transform.position, transform.rotation) as GameObject;
 
         Destroy(this.gameObject);
         Destroy(go, 0.36f);
 
-        oyunKontrolScripti.BalonEkle();
+        scoreControl.CreatedBalloon();
 
     }
     void Update()

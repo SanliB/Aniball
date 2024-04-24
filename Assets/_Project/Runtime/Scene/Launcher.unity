@@ -1021,12 +1021,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 749528672}
-  - component: {fileID: 749528671}
   - component: {fileID: 749528673}
   - component: {fileID: 749528674}
   - component: {fileID: 749528675}
   - component: {fileID: 749528676}
   - component: {fileID: 749528677}
+  - component: {fileID: 749528678}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -1034,41 +1034,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &749528671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749528670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 023aaaf92b00d6c4fa97866d31124aee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  balon:
-  - {fileID: 381205368274416300, guid: beff16d06d5ebb546bca2a08932c71fd, type: 3}
-  - {fileID: 821834049323198300, guid: 2ad47a8443744204c8c337dedb2f5727, type: 3}
-  - {fileID: 884517952712926951, guid: dfe93c5d804a8a54a8477d037043159b, type: 3}
-  - {fileID: 5378907876041341306, guid: 29eb928a487c23c4d84e2df18c91d21d, type: 3}
-  - {fileID: 430589962208615822, guid: b80e15c1999756e4fb64822908959426, type: 3}
-  - {fileID: 8672180736694765904, guid: 4b5518283e7e3b94f834cc1a0a267692, type: 3}
-  - {fileID: 7194339690776407612, guid: f9767998f38de2642952071d79a5cd2c, type: 3}
-  balonSayisi: 0
-  patlama: {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
-  balonhizi: 35
-  Animations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  GameOverPanel: {fileID: 798206646}
 --- !u!224 &749528672
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1086,7 +1051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 363, y: 247}
   m_SizeDelta: {x: 1172.3008, y: -2529.9932}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &749528673
@@ -1102,8 +1067,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 466851387}
-  patlayanBalon: 0
-  manager: {fileID: 749528671}
+  burstBalloon: 0
+  manager: {fileID: 749528678}
 --- !u!114 &749528674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,6 +1125,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28b58827621f5c04b88bc10447e51967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &749528678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749528670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 023aaaf92b00d6c4fa97866d31124aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon:
+  - {fileID: 381205368274416300, guid: beff16d06d5ebb546bca2a08932c71fd, type: 3}
+  - {fileID: 821834049323198300, guid: 2ad47a8443744204c8c337dedb2f5727, type: 3}
+  - {fileID: 884517952712926951, guid: dfe93c5d804a8a54a8477d037043159b, type: 3}
+  - {fileID: 5378907876041341306, guid: 29eb928a487c23c4d84e2df18c91d21d, type: 3}
+  - {fileID: 430589962208615822, guid: b80e15c1999756e4fb64822908959426, type: 3}
+  - {fileID: 8672180736694765904, guid: 4b5518283e7e3b94f834cc1a0a267692, type: 3}
+  - {fileID: 7194339690776407612, guid: f9767998f38de2642952071d79a5cd2c, type: 3}
+  balloonQuantity: 0
+  animation: {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  balloonSpeed: 35
+  Animations:
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  - {fileID: 7681993365747042233, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
+  GameOverPanel: {fileID: 798206646}
 --- !u!1 &774023068
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Balonlar
   - Animation
   - Music
+  - Balloons
   layers:
   - Default
   - TransparentFX

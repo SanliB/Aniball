@@ -8,20 +8,20 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public TextMeshProUGUI score;
-    public int patlayanBalon;
+    public int burstBalloon;
     public BaloonManager manager;
 
     void Start()
     {
-        score.text = "" + patlayanBalon;
+        score.text = "" + burstBalloon;
     }
 
-    public void BalonEkle()
+    public void CreatedBalloon()
     {
-        patlayanBalon += 1;
-        score.text = "" + patlayanBalon;
-        manager.balonhizi += 5;
-        manager.balonSayisi--;
+        burstBalloon += 1;
+        score.text = "" + burstBalloon;
+        manager.balloonSpeed += 5;
+        manager.balloonQuantity--;
     }
 
 }
