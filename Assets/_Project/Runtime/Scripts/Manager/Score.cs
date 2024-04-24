@@ -22,6 +22,15 @@ public class Score : MonoBehaviour
         score.text = "" + burstBalloon;
         manager.balloonSpeed += 5;
         manager.balloonQuantity--;
+        if (manager.balloonCreationTime >= 0)
+        {
+            manager.balloonCreationTime -= burstBalloon * 0.0001f;
+        }
+        
+        else if (manager.balloonCreationTime < 0)
+        {
+            manager.balloonCreationTime =0.5f;
+        }
     }
 
 }

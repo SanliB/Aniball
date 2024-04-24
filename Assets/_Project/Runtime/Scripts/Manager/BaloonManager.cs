@@ -9,7 +9,7 @@ public class BaloonManager : MonoBehaviour
 {
    
     public GameObject [] balloon;
-    float balloonCreationTime = 1f;
+    public float balloonCreationTime = 1f;
     public int balloonQuantity = 0;
     public GameObject animation;
     Score burstBalloon;
@@ -34,15 +34,15 @@ public class BaloonManager : MonoBehaviour
     {
         while (true)
         {
-            if (balloonQuantity >= 0 && balloonQuantity < 10)
+            if (balloonQuantity >= 0 && balloonQuantity < 41)
             {
-                GameObject go = Instantiate(balloon[Random.Range(0, 7)], new Vector2(Random.Range(-2f, 2f), -5f), Quaternion.Euler(0, 0, 0)) as GameObject;
+                GameObject go = Instantiate(balloon[Random.Range(0, 7)], new Vector2(Random.Range(-1.8f, 1.8f), -5f), Quaternion.Euler(0, 0, 0)) as GameObject;
                 go.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, balloonSpeed));
                 balloonQuantity++;
               
             }
 
-            else if (balloonQuantity == 10)
+            else if (balloonQuantity == 41)
             {
                 //GameObject[] Animations; /*= GameObject.FindGameObjectsWithTag("Animation");*/
                 GameObject[] go = GameObject.FindGameObjectsWithTag("Balloons");
