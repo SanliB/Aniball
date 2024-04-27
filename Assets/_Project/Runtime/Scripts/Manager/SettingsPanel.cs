@@ -13,9 +13,20 @@ public class SettingsPanel: MonoBehaviour
     public AudioSource Music;
     public AudioSource Sound;
 
+    public void Awake()
+    {
+        
+    }
     public void Start()
     {
         Music = BackgroundMusic.Instance.backgroundMusic;
+        if (!PlayerPrefs.HasKey("Music") && !PlayerPrefs.HasKey("Sound"))
+        {
+            PlayerPrefs.SetFloat("Music", 1);
+            PlayerPrefs.SetFloat("Sound", 1);
+        }
+        
+
     }
 
     public void Update()

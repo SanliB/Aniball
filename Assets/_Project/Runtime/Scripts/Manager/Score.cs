@@ -19,18 +19,22 @@ public class Score : MonoBehaviour
     public void CreatedBalloon()
     {
         burstBalloon += 1;
-        score.text = "" + burstBalloon;
-        manager.balloonSpeed += 5;
+
         manager.balloonQuantity--;
-        if (manager.balloonCreationTime >= 0.5f)
+
+        score.text = "" + burstBalloon;
+
+        if (manager.balloonSpeed < 900)
+        {
+            manager.balloonSpeed += 5;
+        }
+          
+        if (manager.balloonCreationTime >= 0.325f)
         {
             manager.balloonCreationTime -= burstBalloon * 0.0001f;
         }
         
-        /*else if (manager.balloonCreationTime < 0.5f)
-        {
-            manager.balloonCreationTime =0.5f;
-        }*/
+       
     }
 
 }
