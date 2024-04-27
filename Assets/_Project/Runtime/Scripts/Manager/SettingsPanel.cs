@@ -15,7 +15,7 @@ public class SettingsPanel: MonoBehaviour
 
     public void Start()
     {
-       
+        Music = BackgroundMusic.Instance.backgroundMusic;
     }
 
     public void Update()

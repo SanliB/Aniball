@@ -1085,7 +1085,7 @@ MonoBehaviour:
   isPaused: 0
   MusicSlider: {fileID: 5147664870467860704}
   SoundSlider: {fileID: 5147664870467860703}
-  Music: {fileID: 5713883030127689816, guid: b28eef57a6922494bbe8015e4b43357d, type: 3}
+  Music: {fileID: 0}
   Sound: {fileID: 4115925551817043965, guid: 13a5d57347e4ea941add20a12af764ba, type: 3}
 --- !u!114 &749528675
 MonoBehaviour:
